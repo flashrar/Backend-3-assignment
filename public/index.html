@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Website</title>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Your Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Sign In</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<!-- Homepage -->
+<div class="container section">
+    <h1 class="display-4">Welcome to Your Website!</h1>
+    <p class="lead">2 assignment on BackEnd</p>
+</div>
+
+<!-- Weather Section -->
+<div class="container section">
+    <div class="paris-info">
+        <img src="paris.jpg" alt="Paris Image" class="paris-image">
+        <div id="weather-info" class="weather-info"></div>
+    </div>
+</div>
+
+<!-- Map Section -->
+<div class="container section">
+    <div id="map" style="height: 400px;"></div>
+</div>
+
+<!-- YouTube Player Section -->
+<div class="container section">
+    <div id="player"></div>
+</div>
+
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Google Maps API script tag -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBAoRMzVl2-PO0-5kn4JDkikS7kkVuUqc&libraries=places" async defer></script>
+<!-- Your custom JavaScript file -->
+<script src="scripts.js"></script>
+</body>
+</html>
